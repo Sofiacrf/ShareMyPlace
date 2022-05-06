@@ -7,7 +7,27 @@
     <title>Share my place</title>
 </head>
 <body>
-    <h1>This is Share my place app</h1>
-    
+    <header>
+        <h1>This is Share my place app</h1>
+    </header>
+    <section id="selected-place">
+        <div id="map">
+            <p>Please enter an address to locate yourself</p>
+        </div>
+    </section>
+    <section id="share-controls">
+        <input id="share-link" type="text" readonlyvalue="Select a place to get a link">
+        <button id="share-btn">Share Place</button>
+    </section>
+    <section id="place-data">
+        <form>
+            <label for="address">Address</label>
+            <input type="text">
+            <button type="submit">Find Place</button>
+        </form>
+        <button id="locate-btn">
+            Current Location
+        </button>
+    </section>
 </body>
 </html>
